@@ -1,0 +1,143 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url(model\ 3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+.top {
+    display: flex;
+}
+
+.name {
+    width: 420.31px;
+    height: 56px;
+    padding-left: 32px;
+    margin-top: 25px;
+}
+
+.tesla {
+    width: 120px;
+    height: 24px;
+
+}
+
+.unorder {
+    width: 530.58px;
+    height: 56px;
+
+    display: flex;
+    margin-left: 40px;
+    margin-top: 25px;
+    padding: 0px 8px;
+
+
+}
+
+a {
+    margin: 25px;
+    text-decoration: none;
+    padding: 3px;
+    color: black;
+    font-size: 15px;
+}
+
+.contacts {
+    width: 386px;
+    height: 56px;
+    margin-left: 200px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+ul {
+
+    display: flex;
+
+}
+
+.icon {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 5px;
+    
+
+
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+.mid{
+    height: 200px;
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    color: rgba(3, 15, 49, 0.8);
+   
+
+}
+.heading{
+    transition: 1s;
+}
+h1{
+    padding-left: 150px;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+h2{
+    font-size: 30px;
+    text-decoration: underline 1px;
+    margin-bottom: 15px;
+    transition: 1s;
+}
+h2:hover{
+    text-decoration: 2px underline;
+    
+}
+h3{
+    margin-left: 170px;
+}
+.buttons{
+    width: 100%;
+    height: 400px;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.btn{
+    width: 600px;
+    height: 2dvh;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+#order{
+    background-color: #3e6ae1;
+    color: white;
+    border: none;
+}
+#demo{
+    background-color: white;
+    border: none;
+    color: black;
+}
+button{
+    width: 400px;
+    height: 40px;
+    margin: 10px;
+    padding: 0px 15px;
+    border-radius: 5px; 
+    cursor: pointer;
+}
